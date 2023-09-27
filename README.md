@@ -5,7 +5,7 @@
 
 ## Objetivo
 
-Estudo e aprendizado com fins acadêmicos, consumindo a API pública [Chuck Norris](https://api.chucknorris.io/), aplicando testes unitários.
+Estudo e aprendizado com fins acadêmicos, consumindo a API pública [Chuck Norris](https://api.chucknorris.io/) e aplicando testes unitários.
 
 ## Pacotes utilizados
 
