@@ -1,6 +1,6 @@
 # test_api_chuck
 
-A new Flutter project.
+Projeto de consumo da API ChuckNorris
 
 ## Getting Started
 
