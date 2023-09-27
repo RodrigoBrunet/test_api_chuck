@@ -1,16 +1,16 @@
-# test_api_chuck
+# Consumo API ChuckNorris
 
-A new Flutter project.
+![Static Badge](https://img.shields.io/badge/License-MIT-red) ![Static Badge](https://img.shields.io/badge/Dart%203.0.6-Flutter%203.10.6-blue) ![Static Badge](https://img.shields.io/badge/Testes%20unit%C3%A1tios-8A2be2) ![Static Badge](https://img.shields.io/badge/Status-Desenvolvimento-green) 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Objetivo
 
-A few resources to get you started if this is your first Flutter project:
+Estudo e aprendizado com fins acadêmicos, consumindo a API pública [Chuck Norris](https://api.chucknorris.io/), aplicando testes unitários.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Pacotes utilizados
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Http](https://pub.dev/packages/http)
+- [Shared preferences](https://pub.dev/packages/shared_preferences)
+- [Mockito](https://pub.dev/packages/mockito)
+- [Intl](https://pub.dev/packages/intl)
+- [Build runner](https://pub.dev/packages/build_runner)

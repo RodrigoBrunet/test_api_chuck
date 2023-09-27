@@ -14,7 +14,6 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   shared_preferences: ^2.2.1
-  dio: ^5.3.2
   intl: ^0.18.1
   http: ^1.1.0
   build_runner: ^2.4.6
@@ -23,7 +22,7 @@ dependencies:
  
 
 dev_dependencies:
-  mocktail: ^1.0.0
+ 
   flutter_test:
     sdk: flutter
 

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:dio/dio.dart';
 import 'package:http/http.dart' as http;
 import 'package:test_api_chuck/models/chuck_model.dart';
 import 'package:test_api_chuck/repository/chuck_api_repository.dart';
@@ -16,8 +15,8 @@ class HomeController extends ChangeNotifier {
 
     try {
       chuckModel = await repository.getApiData(client);
-    } on DioException catch (exc) {
-      throw ('Exeption ${exc.message}');
+    } catch (exc) {
+      throw Exception(exc);
     }
     state = LoadingState.sucess;
     notifyListeners();
