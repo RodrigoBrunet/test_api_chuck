@@ -5,7 +5,7 @@
 
 ## Objetivo
 
-Estudo e aprendizado com fins acadêmicos, consumindo a API pública [Chuck Norris](https://api.chucknorris.io/) e aplicando testes unitários.
+Criação de projeto mobile, persistindo dados de login no dispositivo e consumindo a API pública [Chuck Norris](https://api.chucknorris.io/) com aplicação de testes unitários.
 
 ## Pacotes utilizados
 
