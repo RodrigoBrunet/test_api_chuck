@@ -1,6 +1,8 @@
 # Consumo API ChuckNorris
 
-![Static Badge](https://img.shields.io/badge/License-MIT-red) ![Static Badge](https://img.shields.io/badge/Dart%203.0.6-Flutter%203.10.6-blue) ![Static Badge](https://img.shields.io/badge/Testes%20unit%C3%A1tios-8A2be2) ![Static Badge](https://img.shields.io/badge/Status-Desenvolvimento-green) 
+![Static Badge](https://img.shields.io/badge/License-MIT-red) ![Static Badge](https://img.shields.io/badge/Dart%20v3.0.6-Flutter%20v3.10.6-blue) ![Static Badge](https://img.shields.io/badge/Testes%20unit%C3%A1tios-8A2be2) ![Static Badge](https://img.shields.io/badge/Testes%20de%20intergra%C3%A7%C3%A3o-amber) ![Static Badge](https://img.shields.io/badge/Testes%20de%20widget-pink)
+
+
 
 
 ## Objetivo
