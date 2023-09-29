@@ -7,7 +7,7 @@
 
 ## Objetivo
 
-Criação de projeto mobile, com persistencia de dados do usuário local e consumo de API pública [Chuck Norris](https://api.chucknorris.io/), com aplicação de testes unitários.
+Criação de projeto mobile, com persistencia de dados do usuário local e consumo de API pública [Chuck Norris](https://api.chucknorris.io/), com aplicação de testes unitários, testes de integração e testes de widget.
 
 ## Pacotes utilizados
 

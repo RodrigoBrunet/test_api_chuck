@@ -25,9 +25,13 @@ class _CreateUserPageState extends State<CreateUserPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create UserPage'),
+        title: const Text(
+          'Create UserPage',
+          key: Key('titulo'),
+        ),
         centerTitle: true,
         leading: IconButton(
+          key: const Key('IconButton'),
           onPressed: () {
             Navigator.of(context).push(
                 MaterialPageRoute(builder: (context) => const LoginPage()));
@@ -105,6 +109,7 @@ class _CreateUserPageState extends State<CreateUserPage> {
                 height: 70,
               ),
               InputWidget(
+                key: const Key('inputEmail'),
                 obscureText: false,
                 isVisible: false,
                 labelText: const Text('E-mail'),
@@ -116,6 +121,7 @@ class _CreateUserPageState extends State<CreateUserPage> {
                 height: 30,
               ),
               InputWidget(
+                key: const Key('inputPassword'),
                 controller: passwordController,
                 labelText: const Text('password'),
                 validator: (value) =>
@@ -125,6 +131,7 @@ class _CreateUserPageState extends State<CreateUserPage> {
                 height: 30,
               ),
               InputWidget(
+                key: const Key('inputAge'),
                 obscureText: false,
                 isVisible: false,
                 controller: ageController,
@@ -155,6 +162,7 @@ class _CreateUserPageState extends State<CreateUserPage> {
                   ),
                 ),
                 child: const Text(
+                  key: Key('textButton'),
                   'Cadastrar',
                   textAlign: TextAlign.center,
                 ),
