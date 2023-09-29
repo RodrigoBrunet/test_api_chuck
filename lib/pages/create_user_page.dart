@@ -55,6 +55,7 @@ class _CreateUserPageState extends State<CreateUserPage> {
           shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(5))),
           title: const Text(
+            key: Key('textDialogSucess'),
             'Usuário cadastrado com sucesso !!!',
             style: TextStyle(
               fontSize: 16,
