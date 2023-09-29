@@ -47,6 +47,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Column(
                     children: [
                       InputWidget(
+                        key: const Key('inputEmail'),
                         isVisible: false,
                         obscureText: false,
                         controller: emailController,
@@ -58,6 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                         height: 30,
                       ),
                       InputWidget(
+                        key: const Key('inputPassword'),
                         obscureText: true,
                         controller: senhaController,
                         labelText: const Text('Password'),
@@ -82,6 +84,7 @@ class _LoginPageState extends State<LoginPage> {
                       AnimatedBuilder(
                         animation: loginModel,
                         builder: (_, __) => ElevatedButton(
+                          key: const Key('elevatedButton'),
                           onPressed: () async {
                             setState(() {
                               loginModel.statusLoginMessage = false;

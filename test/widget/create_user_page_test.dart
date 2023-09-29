@@ -42,7 +42,7 @@ void main() {
     await widgetTester.pumpWidget(myMaterialApp);
     expect(find.byKey(textButton), findsOneWidget);
   });
-  testWidgets('Deve tocar no botao quando a funcção for chamada',
+  testWidgets('Deve clicar no botao quando a função for chamada',
       (widgetTester) async {
     await widgetTester.pumpWidget(myMaterialApp);
     await widgetTester.tap(find.byType(ElevatedButton));
