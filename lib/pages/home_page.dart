@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           leading: Container(),
           centerTitle: true,
-          title: const Text('Home Page'),
+          title: const Text('Home Page', key: Key('tituloPage')),
           actions: [
             controller.state == LoadingState.loading
                 ? Container()
