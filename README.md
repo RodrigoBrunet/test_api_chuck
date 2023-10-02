@@ -7,11 +7,9 @@
 
 ## Objetivo
 
-Criação de projeto mobile, com persistencia de dados do usuário local e consumo de API pública [Chuck Norris](https://api.chucknorris.io/), com aplicação de testes unitários, testes de integração e testes de widget.
+Criação de projeto mobile, com persistencia de dados local, consumo de API pública [Chuck Norris](https://api.chucknorris.io/), com aplicação de testes unitários, testes de integração e testes de widget.
 
-## Pacotes utilizados
-
-- [Http](https://pub.dev/packages/http)
+## Pacotes utilizados- [Http](https://pub.dev/packages/http)
 - [Shared preferences](https://pub.dev/packages/shared_preferences)
 - [Mockito](https://pub.dev/packages/mockito)
 - [Intl](https://pub.dev/packages/intl)
